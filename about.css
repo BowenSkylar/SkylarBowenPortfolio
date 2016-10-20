@@ -1,0 +1,17 @@
+#flex-container{
+  border: .5em solid blue;
+  padding: 1em;
+  height: 30em;
+  /*flex*/
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+
+}
+
+.flex-item{
+  border: .5em solid orange;
+  padding: 1em;
+  width: 23em;
+}
